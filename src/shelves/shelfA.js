@@ -5,6 +5,7 @@ import ShelfALinks from './shelfALinks';
 import Bin1a from './bin1a';
 import Bin2a from './bin2a';
 import Bin3a from './bin3a';
+import Bin4a from './bin4a';
 
 // import {Link} from 'react-router-dom';
 
@@ -12,8 +13,8 @@ class shelfA extends Component{
     render(){
         return(
 
-            <div>
-                <header className="appHeader">shelfie</header>
+            <div className="App">
+                <header className="shelfHeader">shelf A</header>
                 
 
                 <Switch>
@@ -21,6 +22,7 @@ class shelfA extends Component{
                     <Route  path='/A/B1' component={ Bin1a }/>
                     <Route  path='/A/B2' component={ Bin2a }/>
                     <Route  path='/A/B3' component={ Bin3a }/>
+                    <Route path='/A/B3' component={ Bin4a}/>
                 </Switch>
 
                 

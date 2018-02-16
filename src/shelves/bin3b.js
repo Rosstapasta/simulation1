@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 import './shelf.css';
-// import {Link} from 'react-router-dom';
 
-class Bin3a extends Component{
+
+class Bin3b extends Component{
     render(){
         return(
             <div className="shelfbox">
-                3
+                <p>box1</p>
             </div>
         )
     }
 }
 
-export default Bin3a
+export default Bin3b

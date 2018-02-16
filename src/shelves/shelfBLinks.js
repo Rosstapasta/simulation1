@@ -2,31 +2,31 @@ import React, { Component } from 'react';
 import './shelf.css';
 import {Link} from 'react-router-dom';
 
-class ShelfALinks extends Component {
+class ShelfBLinks extends Component {
   render() {
     return (
       <div>
         
 
-        <Link to='/A/B1'>
+        <Link to='/B/B1'>
             <div className="shelfbox">
                 <p className="boxtext">Box 1</p>
             </div>
         </Link>
 
-        <Link to='/A/B2'>
+        <Link to='/B/B2'>
              <div className="shelfbox">
                 <p className="boxtext">Box 2</p>
              </div>
         </Link>
 
-        <Link to='/A/B3'>
+        <Link to='/B/B3'>
              <div className="shelfbox">
                 <p className="boxtext">Box 3</p>
              </div>
         </Link>
 
-        <Link to='/A/B3'>
+        <Link to='/B/B3'>
             <div className="shelfbox">
                 <p className="boxtext">Box 4</p>
             </div>
@@ -38,4 +38,4 @@ class ShelfALinks extends Component {
   }
 }
 
-export default ShelfALinks;
+export default ShelfBLinks;
