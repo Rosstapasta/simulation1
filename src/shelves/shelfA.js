@@ -20,9 +20,9 @@ class shelfA extends Component{
                 <Switch>
                     <Route exact path='/A' component={ShelfALinks}/>
                     <Route  path='/A/B1' component={ Bin1a }/>
-                    <Route  path='/A/B2' component={ Bin2a }/>
-                    <Route  path='/A/B3' component={ Bin3a }/>
-                    <Route path='/A/B3' component={ Bin4a}/>
+                    <Route  path='/A/B2' component={ Bin1a }/>
+                    <Route  path='/A/B3' component={ Bin1a }/>
+                    <Route path='/A/B3' component={ Bin1a}/>
                 </Switch>
 
                 
